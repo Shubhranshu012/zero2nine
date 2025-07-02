@@ -40,14 +40,15 @@ After training the CNN, a confusion matrix is generated on the test ans below is
 ## 📂 File Structure
 
 ```bash
-├── cnn_architecture.png
-├── neural_net.png
-│── confusion_matrix.png
+├── Model1.png   <- Neural Network
+├── Model2.png   <- Cnn + Neural Network
+├── Image_Cnn.png
+│── Confusion Matrix.png
 ├── train-images.idx3-ubyte
 ├── train-labels.idx1-ubyte
 ├── t10k-images.idx3-ubyte
 ├── t10k-labels.idx1-ubyte
-├── main.py # CNN training script
+├── Image_Neural.png
 ├── nn_baseline.py # Simple neural network
 ├── mnist_cnn.pth
 └── README.md
@@ -70,27 +71,16 @@ Place them in the same directory as your Python scripts.
 
 ```bash
 python Model2.py
+```
 This will:
-
 Train a CNN for 50 epochs
-
 Print training loss per epoch
-
 Save model to mnist_cnn.pth
 
 3. 📉 Visualize Results
+
 Make sure your code includes logic to:
-
 Generate and save the confusion matrix (images/confusion_matrix.png)
-
 Optionally compare CNN and baseline NN performance
 
-📈 Possible Extensions
-Add validation loop and track accuracy
-
-Implement dropout and batch normalization
-
-Use data augmentation (e.g., random rotation, shift)
-
-Add inference script for user input
 

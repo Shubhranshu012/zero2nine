@@ -77,10 +77,10 @@ Train a CNN for 50 epochs
 Print training loss per epoch
 Save model to mnist_cnn.pth
 
-3. 📉 Visualize Results
+### 3. 📉 Visualize Results
 
 Make sure your code includes logic to:
-Generate and save the confusion matrix (images/confusion_matrix.png)
+Generate and save the confusion matrix (Confusion Matrix.png)
 Optionally compare CNN and baseline NN performance
 
 
